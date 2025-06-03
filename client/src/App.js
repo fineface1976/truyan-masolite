@@ -33,3 +33,10 @@ function App() {
 }
 
 export default App
+
+// Add to your existing imports
+import LiveStream from './components/LiveStream';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+// Add this route to your existing routes
+<Route path="/live" component={LiveStream} />
