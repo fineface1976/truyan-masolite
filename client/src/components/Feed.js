@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+ import React, { useState, useEffect } from 'react';
 import { 
   Card, 
   CardContent, 
@@ -138,4 +138,4 @@ export default function Feed() {
       ))}
     </Box>
   );
-    
+}
