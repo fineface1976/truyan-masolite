@@ -1,4 +1,5 @@
 require('dotenv').config();
+const socketService = require('./services/socketService');
 const express = require('express');
 const mongoose = require('mongoose');
 const helmet = require('helmet');
